@@ -1,35 +1,37 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/lexer/item/chisel_learn/chisel-learn/demo08/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/lancer/item/chisel_learn/chisel-learn/demo08/target/scala-2.12/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	DoubleBufferFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FifoIO.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	FifoGen.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FifoGen$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CombFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	DoubleBufferFifo$DoubleBuffer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Fifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	MemFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BubbleFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BubbleFifo$Buffer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FifoGen$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RegFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	DoubleBufferFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FifoIO.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FifoGen.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FifoGen$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CombFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	DoubleBufferFifo$DoubleBuffer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Fifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	MemFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BubbleFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BubbleFifo$Buffer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FifoGen$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RegFifo.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	FifoGen.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MemInstIO.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PCReg.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Configs$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MemInst.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	FifoGen$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Configs.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PCRegIO.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/lexer/item/chisel_learn/chisel-learn/demo08/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoGen.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MemInstIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PCReg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Configs$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MemInst.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoGen$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Configs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PCRegIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OP_TYPES.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BundleControl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoGen.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MemInstIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LS_TYPES.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PCReg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LS_TYPES$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Configs$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecoderIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MemInst.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BundleReg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoGen$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Configs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PCRegIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OP_TYPES$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/lancer/item/chisel_learn/chisel-learn/demo08/target/scala-2.12/classes.bak[0m

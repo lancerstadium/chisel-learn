@@ -1,4 +1,6 @@
 #Successful Tests
-#Tue Apr 09 21:37:13 CST 2024
+#Tue Apr 09 23:28:20 CST 2024
 CommTest=1712669828147
-rv32isc.PCRegTest=1712669833434
+rv32isc.DecoderTest=1712676500833
+rv32isc.MemInstTest=1712676500924
+rv32isc.PCRegTest=1712676500873

@@ -1,14 +1,21 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32isc.PCRegTest, org.scalatest.tools.Framework$$anon$1@181fe8d6, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CommTest, org.scalatest.tools.Framework$$anon$1@181fe8d6, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCommTest:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32isc.MemInstTest, org.scalatest.tools.Framework$$anon$1@21fb20af, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32isc.PCRegTest, org.scalatest.tools.Framework$$anon$1@21fb20af, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(rv32isc.DecoderTest, org.scalatest.tools.Framework$$anon$1@21fb20af, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDecoderTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDecoder[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mPCRegTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mPCReg[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 586 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMemInstTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMemInst[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 644 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CommTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rv32isc.MemInstTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rv32isc.DecoderTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	rv32isc.PCRegTest[0m

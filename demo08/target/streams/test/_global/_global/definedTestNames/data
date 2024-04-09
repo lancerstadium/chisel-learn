@@ -1,1 +1,1 @@
-["CommTest","rv32isc.PCRegTest"]
+["rv32isc.MemInstTest","rv32isc.DecoderTest","rv32isc.PCRegTest"]
