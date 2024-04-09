@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/demo07_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MemFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/MemFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DoubleBufferFifo$DoubleBuffer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/DoubleBufferFifo$DoubleBuffer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CombFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/CombFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BubbleFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/BubbleFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoGen$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/FifoGen$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BubbleFifo$Buffer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/BubbleFifo$Buffer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DoubleBufferFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/DoubleBufferFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/RegFifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Fifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/Fifo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoGen.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/FifoGen.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoGen$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/FifoGen$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo07/target/scala-2.12/classes/FifoIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

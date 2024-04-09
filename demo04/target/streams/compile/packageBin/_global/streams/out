@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/demo04_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ticker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/Ticker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/Hello$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NerdTicker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/NerdTicker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DownTicker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/DownTicker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/Hello$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UpTicker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/UpTicker.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ticker$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo04/target/scala-2.12/classes/Ticker$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0mjava.lang.NumberFormatException: For input string: "hello, world!"[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... ()[0m
+[0m[[0m[31merror[0m] [0m[0m	at FileReader.$anonfun$new$1(Hello.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at FileReader.$anonfun$new$1$adapted(Hello.scala:22)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator.foreach(Iterator.scala:943)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator.foreach$(Iterator.scala:943)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)[0m
+[0m[[0m[31merror[0m] [0m[0m	at FileReader.<init>(Hello.scala:22)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Hello$.$anonfun$new$7(Hello.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... ()[0m
+[0m[[0m[31merror[0m] [0m[0m	at ... (Stack trace trimmed to user code only. Rerun with --full-stacktrace to see the full stack trace)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.NumberFormatException: For input string: "hello, world!"[0m

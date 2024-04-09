@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~BubbleFifo|Buffer",
+    "duplicate":"~BubbleFifo|BubbleFifo/Buffer:Buffer",
+    "index":0.0
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~BubbleFifo|Buffer_1",
+    "duplicate":"~BubbleFifo|BubbleFifo/Buffer_1:Buffer",
+    "index":0.3333333333333333
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~BubbleFifo|Buffer_2",
+    "duplicate":"~BubbleFifo|BubbleFifo/Buffer_2:Buffer",
+    "index":0.6666666666666666
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

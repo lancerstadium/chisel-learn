@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo05/src/main/scala/Hello.scala:99:49: not enough arguments for constructor BubbleFIFO: (size: Int, depth: Int)BubbleFIFO.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameters size, depth.[0m
+[0m[[0m[31merror[0m] [0m[0m    (new chisel3.stage.ChiselStage).emitVerilog(new BubbleFIFO())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

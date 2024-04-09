@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo07/src/main/scala/Hello.scala:128:27: not found: value fullReg[0m
+[0m[[0m[31merror[0m] [0m[0m    when(io.enq.valid && !fullReg) {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo07/src/main/scala/Hello.scala:130:9: not found: value emptyReg[0m
+[0m[[0m[31merror[0m] [0m[0m        emptyReg := false.B                 // 队列非空[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo07/src/main/scala/Hello.scala:131:9: not found: value fullReg[0m
+[0m[[0m[31merror[0m] [0m[0m        fullReg := nextWrite === readPtr[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo07/src/main/scala/Hello.scala:136:27: not found: value emptyReg[0m
+[0m[[0m[31merror[0m] [0m[0m    when(io.deq.ready && !emptyReg) {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo07/src/main/scala/Hello.scala:137:9: not found: value fullReg[0m
+[0m[[0m[31merror[0m] [0m[0m        fullReg := false.B[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo07/src/main/scala/Hello.scala:138:9: not found: value emptyReg[0m
+[0m[[0m[31merror[0m] [0m[0m        emptyReg := nextRead === writePtr[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo07/src/main/scala/Hello.scala:143:22: not found: value fullReg[0m
+[0m[[0m[31merror[0m] [0m[0m    io.enq.ready := !fullReg[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo07/src/main/scala/Hello.scala:144:22: not found: value emptyReg[0m
+[0m[[0m[31merror[0m] [0m[0m    io.deq.valid := !emptyReg[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

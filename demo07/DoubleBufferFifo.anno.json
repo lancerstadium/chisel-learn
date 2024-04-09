@@ -1,0 +1,22 @@
+[
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~DoubleBufferFifo|DoubleBuffer",
+    "duplicate":"~DoubleBufferFifo|DoubleBufferFifo/DoubleBuffer:DoubleBuffer",
+    "index":0.0
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~DoubleBufferFifo|DoubleBuffer_1",
+    "duplicate":"~DoubleBufferFifo|DoubleBufferFifo/DoubleBuffer_1:DoubleBuffer",
+    "index":0.5
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

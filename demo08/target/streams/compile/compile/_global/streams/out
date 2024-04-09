@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo08/src/main/scala/rv32isc/PCReg.scala:29:45: not found: value START_ADDR[0m
+[0m[[0m[31merror[0m] [0m[0m    val regPC = RegInit(UInt(ADDR_WIDTH.W), START_ADDR.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
