@@ -18,7 +18,7 @@ trait MemInstTestFunc {
     // 为随机指令生成hex文本文件
     def genMemInstHex(): Unit = {
         val memFile = new File(
-          System.getProperty("user.dir") + "/src/test/scala/rv32isc/MemInst.hex"
+            System.getProperty("user.dir") + "/src/test/scala/rv32isc/RandMemInst.hex"
         )
         memFile.createNewFile()
         val memPrintWriter = new PrintWriter(memFile)
@@ -41,7 +41,7 @@ class MemInstTest extends AnyFlatSpec with ChiselScalatestTester with MemInstTes
     "MemInst" should "pass" in {
         // 先生成随机hex文件，再进行测试
         genMemInstHex()
-        test(new MemInst) { dut =>
+        test(new MemInst(true)) { dut =>
             testFn(dut)
         } 
     }

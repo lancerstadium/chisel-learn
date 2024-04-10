@@ -67,7 +67,25 @@ CPU 中应该至少需要包含以下**数据通路**组件：
 ![image3](./imgs/image3.png)
 
 
+## 3 整体测试
+
+1. 生成汇编：
+`riscv32-unknown-elf-gcc -march=rv32i -S test.c`
+2. 生成目标文件：
+`riscv32-unknown-elf-as -march=rv32i test.s -o test.o`
+3. 转换出二进制文件：
+`riscv32-unknown-elf-objcopy -O binary test.o test.bin`
+4. 转换出十六进制文件：
+`python3 bin2hex.py test.bin test.hex`
+5. 测试：
+`sbt test`
+6. 生成 CPU Verilog：
+`sbt run`
+
+设计图：
+![image4](./imgs/image4.svg)
 
 ## 参考资料
 
-> [Chisel 实战之单周期 RISC-V 处理器实现](https://blog.csdn.net/weixin_43681766/article/details/128361357)
+> - [Chisel 实战之单周期 RISC-V 处理器实现](https://blog.csdn.net/weixin_43681766/article/details/128361357)
+> - [RV32ISC | GitHub](https://github.com/github-3rr0r/RV32ISC)
