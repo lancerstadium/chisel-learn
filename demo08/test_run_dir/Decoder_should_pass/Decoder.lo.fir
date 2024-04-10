@@ -12,6 +12,7 @@ circuit Decoder :
     output io_bundleCtrl_ctrlJAL : UInt<1>
     output io_bundleCtrl_ctrlOP : UInt<4>
     output io_bundleCtrl_ctrlSigned : UInt<1>
+    output io_bundleCtrl_ctrlLSType : UInt<2>
     output io_bundleReg_rs1 : UInt<5>
     output io_bundleReg_rs2 : UInt<5>
     output io_bundleReg_rd : UInt<5>
@@ -239,7 +240,8 @@ circuit Decoder :
     io_bundleCtrl_ctrlJAL <= ctrlJAL @[Decoder.scala 235:27]
     io_bundleCtrl_ctrlOP <= ctrlOP @[Decoder.scala 238:26]
     io_bundleCtrl_ctrlSigned <= ctrlSigned @[Decoder.scala 240:30]
+    io_bundleCtrl_ctrlLSType <= ctrlLSType @[Decoder.scala 242:30]
     io_bundleReg_rs1 <= _io_bundleReg_rs1_T @[Decoder.scala 23:22]
     io_bundleReg_rs2 <= _io_bundleReg_rs2_T @[Decoder.scala 24:22]
     io_bundleReg_rd <= _io_bundleReg_rd_T @[Decoder.scala 25:21]
-    io_imm <= imm @[Decoder.scala 242:12]
+    io_imm <= imm @[Decoder.scala 243:12]

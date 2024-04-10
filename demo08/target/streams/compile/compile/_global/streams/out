@@ -1,16 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/lancer/item/chisel_learn/chisel-learn/demo08/src/main/scala/utils/Bundles.scala:23:27: not found: value REG_NUMS_LOG[0m
-[0m[[0m[31merror[0m] [0m[0m    val rs1 = Output(UInt(REG_NUMS_LOG.W))[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/lancer/item/chisel_learn/chisel-learn/demo08/src/main/scala/utils/Bundles.scala:24:27: not found: value REG_NUMS_LOG[0m
-[0m[[0m[31merror[0m] [0m[0m    val rs2 = Output(UInt(REG_NUMS_LOG.W))[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/lancer/item/chisel_learn/chisel-learn/demo08/src/main/scala/utils/Bundles.scala:25:26: not found: value REG_NUMS_LOG[0m
-[0m[[0m[31merror[0m] [0m[0m    val rd = Output(UInt(REG_NUMS_LOG.W))[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/lancer/item/chisel_learn/chisel-learn/demo08/src/main/scala/rv32isc/Decoder.scala:177:17: not found: value ctrlLSType[0m
-[0m[[0m[31merror[0m] [0m[0m                ctrlLSType := LS_B[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/lancer/item/chisel_learn/chisel-learn/demo08/src/main/scala/rv32isc/Decoder.scala:180:17: not found: value ctrlLSType[0m
-[0m[[0m[31merror[0m] [0m[0m                ctrlLSType := LS_H[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo08/src/main/scala/utils/Bundles.scala:19:34: not found: value LS_TYPES_WIDTH[0m
+[0m[[0m[31merror[0m] [0m[0m    val ctrlLSType = Output(UInt(LS_TYPES_WIDTH.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lexer/item/chisel_learn/chisel-learn/demo08/src/main/scala/utils/Bundles.scala:34:33: not found: value LS_TYPES_WIDTH[0m
+[0m[[0m[31merror[0m] [0m[0m    val ctrlLSType = Input(UInt(LS_TYPES_WIDTH.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

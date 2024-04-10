@@ -239,5 +239,6 @@ class Decoder extends Module {
     io.bundleCtrl.ctrlRegWrite := ctrlRegWrite
     io.bundleCtrl.ctrlSigned := ctrlSigned
     io.bundleCtrl.ctrlStore := ctrlStore
+    io.bundleCtrl.ctrlLSType := ctrlLSType
     io.imm := imm
 }
