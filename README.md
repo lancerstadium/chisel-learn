@@ -24,9 +24,10 @@ Y8b  d8 88   88   .88.   db   8D 88.     88booo.        88booo. 88.     88   88 
 - [x] demo06：BufferFIFO
 - [x] demo07：OtherFIFOs
 - [x] demo08：Simple RiscV32 CPU Design
-- [ ] demo09：Complex RiscV64 CPU Design (NutShell)
-- [ ] demo10：Overlay your design on Pynq
-- [ ] demo11：Overlay your design on Fpga
+- [ ] demo09：Complex RiscV64 CPU Design
+- [ ] demo10：Rocketchip SoC Generator
+- [ ] demo11：Overlay your design on Pynq
+- [ ] demo12：Overlay your design on Fpga
 
 
 ## 配置环境
