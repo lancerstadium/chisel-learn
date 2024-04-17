@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Seg7Test, org.scalatest.tools.Framework$$anon$1@54ff6055, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSeg7Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSeg7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1343)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend.$anonfun$runThreads$2(ThreadedBackend.scala:562)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend.$anonfun$runThreads$2$adapted(ThreadedBackend.scala:557)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:431)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend.runThreads(ThreadedBackend.scala:557)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend.runThreads$(ThreadedBackend.scala:539)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.GenericBackend.runThreads(GenericBackend.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.GenericBackend.run(GenericBackend.scala:182)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.Context$.$anonfun$run$1(Testers2.scala:34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

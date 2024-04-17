@@ -1,6 +1,6 @@
 
 
 
-## 参考资料
+7段数码管：0-9等
 
-> - [nutshell](https://oscpu.gitbook.io/nutshell/jie-shao/introduction)
+![alt text](image.png)

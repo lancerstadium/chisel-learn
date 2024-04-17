@@ -1,46 +1,37 @@
-/*
- * This code is a minimal hardware described in Chisel.
- * 
- * Blinking LED: the FPGA version of Hello World
- */
-
 import chisel3._
+import chisel3.util._
 
-/**
- * The blinking LED component.
- */
 
-class Hello extends Module {
+class Seg7 extends Module {
     val io = IO(new Bundle {
-        val led = Output(UInt(1.W))
-        val sw = Input(UInt(3.W))
+        val sw = Input(UInt(4.W))
+        val segOut = Output(UInt(7.W))
     })
 
-    // switch
-    io.led := io.sw(0)
+    io.segOut := "b111_1111".U
 
-    // and
-    // io.led := io.sw(0) & io.sw(1)
+    switch(io.sw) {
+        is ("b0000".U) { io.segOut := "b100_0000".U }
+        is ("b0001".U) { io.segOut := "b111_1001".U }
+        is ("b0010".U) { io.segOut := "b010_0100".U }
+        is ("b0011".U) { io.segOut := "b011_0000".U }
+        is ("b0100".U) { io.segOut := "b001_1001".U }
+        is ("b0101".U) { io.segOut := "b001_0010".U }
+        is ("b0110".U) { io.segOut := "b000_0010".U }
+        is ("b0111".U) { io.segOut := "b111_1000".U }
+        is ("b1000".U) { io.segOut := "b000_0000".U }
+        is ("b1001".U) { io.segOut := "b001_0000".U }
+        is ("b1010".U) { io.segOut := "b000_1000".U }
+        is ("b1011".U) { io.segOut := "b000_0011".U }
+        is ("b1100".U) { io.segOut := "b010_0111".U }
+        is ("b1101".U) { io.segOut := "b010_0001".U }
+        is ("b1110".U) { io.segOut := "b000_0110".U }
+        is ("b1111".U) { io.segOut := "b000_1110".U }
+    }
 
-    // mux
-    // io.led := Mux(io.sw(0), io.sw(1), io.sw(2))
-
-    // val CNT_MAX = (50000000 / 2 - 1).U
-
-    // val cntReg = RegInit(0.U(32.W))
-    // val blkReg = RegInit(0.U(1.W))
-
-    // cntReg := cntReg + 1.U
-    // when(cntReg === CNT_MAX) {
-    //     cntReg := 0.U
-    //     blkReg := ~blkReg
-    // }
-    // io.led := blkReg
 }
 
-/**
- * An object extending App to generate the Verilog code.
- */
-object Hello extends App {
-    (new chisel3.stage.ChiselStage).emitVerilog(new Hello())
+
+object Seg7 extends App {
+    (new chisel3.stage.ChiselStage).emitVerilog(new Seg7())
 }

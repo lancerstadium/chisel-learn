@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lancer/item/chisel_learn/chisel-learn/demo09/src/test/scala/HelloTest.scala:19:36: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m                System.out.println(s)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

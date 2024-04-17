@@ -1,17 +1,1 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/lexer/item/chisel_learn/chisel-learn/demo01/target/scala-2.12/demo01_2.12-0.1.0-SNAPSHOT.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Mux3$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo01/target/scala-2.12/classes/Mux3$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo01/target/scala-2.12/classes/Hello$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Mux3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo01/target/scala-2.12/classes/Mux3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo01/target/scala-2.12/classes/Hello$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Channel.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo01/target/scala-2.12/classes/Channel.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo01/target/scala-2.12/classes/Hello.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Hello$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/lexer/item/chisel_learn/chisel-learn/demo01/target/scala-2.12/classes/Hello$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/lancer/item/chisel_learn/chisel-learn/demo09/target/scala-2.12/demo09_2.12-0.1.0-SNAPSHOT.jar[0m
